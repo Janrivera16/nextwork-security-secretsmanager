@@ -37,3 +37,9 @@ AWS_ACCESS_KEY_ID = credentials.get("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = credentials.get("AWS_SECRET_ACCESS_KEY")
 AWS_REGION = credentials.get("AWS_REGION", boto3.session.Session().region_name or "us-east-2")
 
+<<<<<<< HEAD
+=======
+AWS_ACCESS_KEY_ID = "YOUR_ACTUAL_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY = "YOUR_ACTUAL_SECRET_ACCESS_KEY"
+AWS_REGION = "us-east-2"
+>>>>>>> 9186d38e7651fdeb11f97743d278d69b1a5c2b25
